@@ -9,7 +9,7 @@ package Logica_Negocio;
  * @author luiskandor
  */
 public class Persona {
-    String id, nombre, apellido;
+   public String id, nombre, apellido;
     public Producto objProctucto;
     
     public Persona() {
@@ -52,5 +52,5 @@ public class Persona {
 
     public void setObjProctucto(Producto objProctucto) {
         this.objProctucto = objProctucto;
-    }
+    } 
 }
