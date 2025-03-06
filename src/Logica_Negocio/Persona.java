@@ -6,12 +6,11 @@ package Logica_Negocio;
 
 /**
  *
- * @author luiskandor
+ * @author luisk
  */
 public class Persona {
-   public String id, nombre, apellido;
-    public Producto objProctucto;
-    
+    String id, nombre, apellido;
+    Producto objProducto;
     public Persona() {
     }
 
@@ -19,7 +18,7 @@ public class Persona {
         this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
-        this.objProctucto = objProctucto;
+        this.objProducto = objProctucto;
     }
 
     public String getId() {
@@ -47,10 +46,10 @@ public class Persona {
     }
 
     public Producto getObjProctucto() {
-        return objProctucto;
+        return objProducto;
     }
 
     public void setObjProctucto(Producto objProctucto) {
-        this.objProctucto = objProctucto;
+        this.objProducto = objProctucto;
     } 
 }
