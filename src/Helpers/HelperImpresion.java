@@ -13,9 +13,9 @@ public class HelperImpresion {
          System.out.println("El nombre de la persona es"+"\t"+ObjPersona.getNombre());
         System.out.println("El apellido de la persona es"+"\t"+ObjPersona.getApellido());
         System.out.println("El id de la persona es"+"\t"+ObjPersona.getId());
-        System.out.println("El nombre del producto es"+"\t"+ObjPersona.getObjProctucto().getNombreProducto());
-        System.out.println("El id del producto es"+"\t"+ObjPersona.getObjProctucto().getIdProducto());
-        System.out.println("La descripcion del producto es"+"\t"+ObjPersona.getObjProctucto().getDescripcion());
+        System.out.println("El nombre del producto es"+"\t"+ObjPersona.getObjProducto().getNombreProducto());
+        System.out.println("El id del producto es"+"\t"+ObjPersona.getObjProducto().getIdProducto());
+        System.out.println("La descripcion del producto es"+"\t"+ObjPersona.getObjProducto().getDescripcion());
         
     }
     

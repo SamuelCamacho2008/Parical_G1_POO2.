@@ -14,11 +14,11 @@ public class Persona {
     public Persona() {
     }
 
-    public Persona(String id, String nombre, String apellido, Producto objProctucto) {
+    public Persona(String id, String nombre, String apellido, Producto objProducto) {
         this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
-        this.objProducto = objProctucto;
+        this.objProducto = objProducto;
     }
 
     public String getId() {
@@ -45,11 +45,11 @@ public class Persona {
         this.apellido = apellido;
     }
 
-    public Producto getObjProctucto() {
+    public Producto getObjProducto() {
         return objProducto;
     }
 
-    public void setObjProctucto(Producto objProctucto) {
-        this.objProducto = objProctucto;
+    public void setObjProducto(Producto objProducto) {
+        this.objProducto = objProducto;
     } 
 }
