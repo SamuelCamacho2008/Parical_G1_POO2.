@@ -2,34 +2,38 @@
 package Logica_Negocio;
 
 public class Producto {
-    public String Id, Nombre, Descripcion;
+    public String idProducto, nombreProducto, descripcion;
 
     public Producto() {
     }
 
-    public String getId() {
-        return Id;
+    public Producto(String idProducto, String nombreProducto, String descripcion) {
+        this.idProducto = idProducto;
+        this.nombreProducto = nombreProducto;
+        this.descripcion = descripcion;
     }
 
-    public void setId(String Id) {
-        this.Id = Id;
+    public String getIdProducto() {
+        return idProducto;
     }
 
-    public String getNombre() {
-        return Nombre;
+    public void setIdProducto(String idProducto) {
+        this.idProducto = idProducto;
     }
 
-    public void setNombre(String Nombre) {
-        this.Nombre = Nombre;
+    public String getNombreProducto() {
+        return nombreProducto;
+    }
+
+    public void setNombreProducto(String nombreProducto) {
+        this.nombreProducto = nombreProducto;
     }
 
     public String getDescripcion() {
-        return Descripcion;
+        return descripcion;
     }
 
-    public void setDescripcion(String Descripcion) {
-        this.Descripcion = Descripcion;
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
     }
-    
-    
 }
