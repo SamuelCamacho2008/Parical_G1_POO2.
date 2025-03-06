@@ -26,7 +26,7 @@ public class Main {
         String idProducto, nombreProducto, descripcion;
         Persona objPersona;
         Producto objProducto;
-        
+  
         int rta, conteo;
          System.out.println("Digite el nombre del producto");
         nombreProducto = sc.nextLine();
@@ -76,12 +76,12 @@ public class Main {
             rta = HelperValidacion.ValidarVacio(descripcion);
         }
         
-        conteo = HelperValidacion.ValidarTodoLetra(descripcion);
+        conteo = HelperValidacion.ValidarTodo(descripcion);
 
         while (conteo != 0) {
             System.out.println("Digite la descripcion del producto");
             descripcion = sc.nextLine();
-            conteo = HelperValidacion.ValidarTodoLetra(descripcion);
+            conteo = HelperValidacion.ValidarTodo(descripcion);
         }
         //termina descripción del producto
         
