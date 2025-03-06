@@ -10,7 +10,7 @@ import java.util.ArrayList;
  *
  * @author felip
  */
-public class Helper_Validacion {
+public class HelperValidacion {
     public static int RetornarValor(String nombre)
     {
         int numero=0;
