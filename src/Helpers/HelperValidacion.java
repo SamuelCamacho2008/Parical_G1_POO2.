@@ -11,8 +11,7 @@ import java.util.ArrayList;
  * @author felip
  */
 public class HelperValidacion {
-    public static int RetornarValor(String nombre)
-    {
+    public static int RetornarValor(String nombre){
         int numero=0;
         int letra=0;
 
@@ -190,5 +189,5 @@ public class HelperValidacion {
    {
        int conteo=ValidarVacio(cadena)+RetornarCEV2Contraseña(cadena);
        return conteo;
-   } 
+   }
 }
