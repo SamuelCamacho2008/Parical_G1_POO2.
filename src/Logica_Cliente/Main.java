@@ -45,6 +45,8 @@ public class Main {
             nombreProducto = sc.nextLine();
             conteo = HelperValidacion.ValidarTodo(nombreProducto);
         }
+        // termina nombre del producto 
+        
          System.out.println("Digite el id del producto");
         idProducto = sc.nextLine();
         rta = HelperValidacion.ValidarVacio(idProducto);
@@ -62,6 +64,8 @@ public class Main {
             idProducto = sc.nextLine();
             conteo = HelperValidacion.ValidarTodoLetra(idProducto);
         }
+        // termina id del producto
+        
         System.out.println("Digite la descripcion del producto");
         descripcion = sc.nextLine();
         rta = HelperValidacion.ValidarVacio(descripcion);
@@ -79,8 +83,10 @@ public class Main {
             descripcion = sc.nextLine();
             conteo = HelperValidacion.ValidarTodoLetra(descripcion);
         }
+        //termina descripción del producto
         
         objProducto = new Producto(idProducto, nombreProducto, descripcion);
+        //se guarda todo lo ingresado en la variable objProducto
 
         System.out.println("Digite el nombre del comprador");
         nombre = sc.nextLine();
@@ -99,6 +105,8 @@ public class Main {
             nombre = sc.nextLine();
             conteo = HelperValidacion.ValidarTodo(nombre);
         }
+        //termina nombre de la persona 
+        
         System.out.println("Digite el apellido del comprador");
         apellido = sc.nextLine();
         rta = HelperValidacion.ValidarVacio(apellido);
@@ -116,6 +124,8 @@ public class Main {
             apellido = sc.nextLine();
             conteo = HelperValidacion.ValidarTodo(apellido);
         }
+        //termina apellido de la persona
+        
         System.out.println("Digite el id del comprador");
         id = sc.nextLine();
         rta = HelperValidacion.ValidarVacio(id);
@@ -133,7 +143,11 @@ public class Main {
             id = sc.nextLine();
             conteo = HelperValidacion.ValidarTodoLetra(id);
         }
+        //termina id de la persona
+        
         objPersona = new Persona(id, nombre, apellido, objProducto);
+        //se guarda todo lo ingresado en la variable objPersona
+        
         Helpers.HelperImpresion.ImprimirPersona(objPersona);
     }
 }
