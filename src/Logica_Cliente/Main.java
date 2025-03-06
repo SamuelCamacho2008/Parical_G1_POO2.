@@ -149,5 +149,6 @@ public class Main {
         //se guarda todo lo ingresado en la variable objPersona
         
         Helpers.HelperImpresion.ImprimirPersona(objPersona);
+        //se imprimen los datos guardados con la ayuda del HelperImpresion
     }
 }
