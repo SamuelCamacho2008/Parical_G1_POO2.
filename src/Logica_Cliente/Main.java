@@ -26,9 +26,11 @@ public class Main {
         String idProducto, nombreProducto, descripcion;
         Persona objPersona;
         Producto objProducto;
-  
         int rta, conteo;
-         System.out.println("Digite el nombre del producto");
+        //definimos las variables y los objetos
+        
+        
+        System.out.println("Digite el nombre del producto");
         nombreProducto = sc.nextLine();
         rta = HelperValidacion.ValidarVacio(nombreProducto);
 
